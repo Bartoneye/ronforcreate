@@ -1,0 +1,42 @@
+
+1.19.2-1.0.12a
+-------------
+
+- Done and tested
+[✔] Done and tested
+[🟡] Partially done and/or needs testing
+[❌] Not done, including unmerged PRs
+
+
+Features
+--------
+
+Villager Professions
+    [❌] Farmer arms are using the hat rim texture
+
+
+
+Bugfixes
+--------
+
+- Fixed slimes/cubes taking damage when consuming other slimes/cubes
+- Autocasting consume no longer looks for tiny slimes (because they won't increase size, only heal slightly)
+- Fixed the bloodlust tooltip incorrectly stating a 50% movement speed increase (it's actually 20%)
+- Recoloured tridents to fit the piglin colour scheme
+- changed /gamerule groundYLevel to be the minimum camera height instead of the locked height, and default is now 0
+- fixed /gamerule improvedPathfinding not working for some new units
+- added /gamerule flyingMaxYLevel (default 320) to limit the height of flying units like ghasts
+
+Quality of Life
+---------------
+[🟡] Added /gamerule  bridges
+
+
+
+Balancing
+---------
+[❌] Soulfires created by blazes need to be made temporary
+
+
+Languages
+---------

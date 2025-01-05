@@ -1,0 +1,87 @@
+
+
+
+Wave Survival 0.6
+------------------
+
+[❌] Add to main game build, mark as beta
+
+[❌] Fixed a bug where teams would randomly switch
+
+[❌] Fixed a bug where enemy units being stuck would lag out the server
+
+[❌] Disable wave survival and gamemode button on tutorial world
+
+[✔] Time now begins at dusk on the first day
+    - This means day 1 is no longer half the length of other days
+[✔] Ranged ground units now target the nearest unit instead of the nearest building
+
+
+
+Features
+--------
+
+[❌] King of the Beacon
+    - simple pyramid made of 4 layers + beacon block (9x9 minimum)
+    - need to be neutral placeable at the start of a match
+    - logic to change ownership to whoever has the most units nearby, with some slight inertia
+    - timer to determine who wins (win via total time accumulated)
+    - must ignore all attack commands and be indestructible
+    - starts out entirely made of stone brick, but deposit ore to be upgraded into ore blocks from the top down
+        - level 1: regen
+        - level 2: strength
+        - level 3: resistance
+        - level 4: speed
+    - instead of scaffolding underneath, place some other brick blocks
+    - add a UI later to show the effects, for now just have a number next to name showing how much ore to next tier)
+
+[❌] Mapmaker mode:
+    - Provide a bunch of neutral buildings to place
+        - Tavern to recruit mercenaries
+        - Healing fountain
+        - Mini beacon
+
+[❌] Piglin mines
+    - Static defense for piglins, but can also be used to siege
+    - When built, can be exploded manaully (or set to autoexplode on nearby enemies approaching)
+    - Explodes into combination of soulsand and magma
+
+[❌] Magma cubes
+    - See discord post
+
+[❌] Shift queueing actions
+
+
+Bugfixes
+--------
+
+[❌] Central portals sometimes do not ignite (and this somehow makes grunts spawn underground)
+
+[❌] Cobwebs in a spider lair should not slow down anything
+
+[❌] Dying in survival puts you in a bugged survival mode
+
+
+
+Quality of Life Features
+------------------------
+
+[❌] Save transport portal links between server restarts
+
+[❌] Flatten terrain ability
+    - Require that villagers work on it like a building
+    - Will need a new flatten zone object (no need to save it)
+
+[❌] Cast spells with the closest unit first
+
+[❌] restore ores on /rts-reset
+    - Have to track each ore block when it is mined or converted into nether terrain
+
+[❌] /rts-surrender-and-destroy to destroy all your own units and buildings
+
+[❌] Special block to allow spawn location picking
+
+
+Balancing
+---------
+
